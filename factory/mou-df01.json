@@ -1,0 +1,9 @@
+{
+	"name": "mou-df01",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9af1565c-b0a4-421d-845e-48255864c9a2",
+		"tenantId": "9007cba2-2c83-4b53-b92b-63269f0e08cb"
+	}
+}
