@@ -21,6 +21,9 @@
 				}
 			}
 		],
-		"annotations": []
+		"annotations": [
+			"fourth fourth",
+			"testAnnotation"
+		]
 	}
 }
