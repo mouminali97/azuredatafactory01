@@ -1,0 +1,50 @@
+{
+	"name": "lemonadadata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Date",
+				"type": "date"
+			},
+			{
+				"name": "Day",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Temperature",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Rainfall",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Flyers",
+				"type": "tinyint",
+				"precision": 3
+			},
+			{
+				"name": "Price",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Sales",
+				"type": "tinyint",
+				"precision": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Lemonade"
+		}
+	}
+}
