@@ -1,5 +1,5 @@
 {
-	"name": "lemonadesinkadls",
+	"name": "lemonadeSales",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "Lemonade.csv",
-				"fileSystem": "lemonadedata"
+				"fileName": "LemonadeSales.csv",
+				"fileSystem": "staging-container"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
@@ -28,27 +28,15 @@
 				"type": "String"
 			},
 			{
-				"name": "Day",
-				"type": "String"
-			},
-			{
-				"name": "Temperature",
-				"type": "String"
-			},
-			{
-				"name": "Rainfall",
-				"type": "String"
-			},
-			{
-				"name": "Flyers",
-				"type": "String"
-			},
-			{
 				"name": "Price",
 				"type": "String"
 			},
 			{
 				"name": "Sales",
+				"type": "String"
+			},
+			{
+				"name": "SalesPrice",
 				"type": "String"
 			}
 		]
