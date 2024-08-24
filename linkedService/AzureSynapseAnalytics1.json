@@ -1,5 +1,6 @@
 {
 	"name": "AzureSynapseAnalytics1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "AzureSqlDW",
@@ -8,8 +9,9 @@
 			"database": "mousqlpool",
 			"encrypt": "mandatory",
 			"trustServerCertificate": false,
-			"authenticationType": "SystemAssignedManagedIdentity"
+			"authenticationType": "SQL",
+			"userName": "mouminali",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEJFNDM2MTQ3LTNENzgtNDIwOC1CRjkxLTM4MTI4MEJDQzkwRl85MmM0NjNkNy01YzEwLTQ3OGEtYmM4NS1jZTEzM2JjNjhlNzYiDQp9"
 		}
-	},
-	"type": "Microsoft.DataFactory/factories/linkedservices"
+	}
 }
