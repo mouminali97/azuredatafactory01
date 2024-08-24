@@ -264,7 +264,7 @@
 				],
 				"typeProperties": {
 					"schema": "dbo",
-					"table": "LemonadeSales"
+					"table": "Lemonade"
 				}
 			},
 			"dependsOn": [
